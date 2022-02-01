@@ -14,11 +14,10 @@
     </div>
     <script>
         const myApp = Vue.createApp({
-            data() {
-                return {
-                    product: "iPhone 12"
-                }
-            }
+            template: `
+                    <h1>First Vue Js Applications </h1>
+                    <p>This is paragraph </p>
+            `
         })
         myApp.mount('#app')
     </script>
