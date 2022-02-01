@@ -10,14 +10,21 @@
 
 <body>
     <div id="app">
-        <h1>{{ product }}</h1>
+        <h1>{{ sayHello() }}</h1>
     </div>
     <script>
         const myApp = Vue.createApp({
-            template: `
-                    <h1>First Vue Js Applications </h1>
-                    <p>This is paragraph </p>
-            `
+            data() {
+                return {
+                    message: ''
+                }
+            },
+            methods: {
+                sayHello() {
+                    this.message = 'Hello Vue.js'
+                }
+            }
+                
         })
         myApp.mount('#app')
     </script>
