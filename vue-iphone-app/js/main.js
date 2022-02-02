@@ -10,7 +10,7 @@ const myApp = Vue.createApp({
             cart : 0,
             variants: [
                 { id: 'iphone13-001', color: 'blue', img: './assets/images/iphone-13-blue.png' },
-                { id: 'iphone13-002', color: 'midnight', img: './assets/images/iphone-13-midnight.png' },
+                { id: 'iphone13-002', color: 'black', img: './assets/images/iphone-13-midnight.png' },
                 { id: 'iphone13-003', color: 'red', img: './assets/images/iphone-13-red.png' },
             ],
         }

@@ -31,8 +31,8 @@
                     <ul>
                         <li v-for="spec in specs">{{ spec }}</li>
                     </ul>
-                    <div v-for="variant in variants" :key="variant.id" @mouseover="updateImage(variant.img)">
-                        {{ variant.color }}
+                    <div v-for="variant in variants" :key="variant.id" @mouseover="updateImage(variant.img)"
+                        class="color-circle" :style="{backgroundColor: variant.color}">
                     </div>
                     <button v-on:click="cart++" class="button">Add to cart</button>
                 </div>
