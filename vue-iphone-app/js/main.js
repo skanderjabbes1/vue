@@ -5,7 +5,7 @@ const myApp = Vue.createApp({
             parag: 'Android is better',
             img: 'assets/images/iphone-13-blue.png',
             inStock: true,
-            quantity : 6,
+            quantity : 10,
             specs: ['2 Puces', 'Camera', 'HDR'],
             cart : 0,
             variants: [
