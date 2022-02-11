@@ -1,6 +1,3 @@
-
-
-
 const ReviewZoneComponent = {
   template: `<FormComponent @display='saveInfo'/>
             <AffichageComponent :firstName="forms1.pseudo" :avis="forms1.avis" :note="forms1.note"/>`,

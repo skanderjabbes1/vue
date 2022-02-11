@@ -1,5 +1,3 @@
-
-
 const AffichageComponent = {
   template: `
     <div class ="review-container">
